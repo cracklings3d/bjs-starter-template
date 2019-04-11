@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "esnext",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "types": [
+      "@babylonjs/core",
+      "@babylonjs/gui",
+      "@babylonjs/materials",
+      "@babylonjs/inspector"
+    ],
+    "lib": [
+      "es2016",
+      "dom"
+    ]
+  }
+}
