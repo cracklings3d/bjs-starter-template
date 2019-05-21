@@ -1,6 +1,16 @@
 dist
+
+# npm packages
 node_modules
+
+# vscode configs
 .vscode
+
+# intelliJ IDE configs
 .idea
 *.iml
+
+# vim swap files
+.swp
+
 # .gitignore
