@@ -1,6 +1,6 @@
 {
   "name": "bjs-ts-webpack-starter-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Template for Webpack TypeScript and BabylonJS",
   "main": "index.js",
   "scripts": {
@@ -11,23 +11,23 @@
   "author": "Cracklings",
   "license": "ISC",
   "devDependencies": {
-    "clean-webpack-plugin": "^2.0.1",
-    "copy-webpack-plugin": "^5.0.2",
-    "css-loader": "^2.1.1",
-    "html-webpack-plugin": "^3.2.0",
+    "clean-webpack-plugin": "^2",
+    "copy-webpack-plugin": "^5",
+    "css-loader": "^2",
+    "html-webpack-plugin": "^3",
     "imports-loader": "^0.8.0",
     "style-loader": "^0.23.1",
-    "ts-loader": "^5.3.3",
-    "typescript": "^3.4.3",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.3.1"
+    "ts-loader": "^5",
+    "typescript": "^3",
+    "webpack": "^4",
+    "webpack-cli": "^3",
+    "webpack-dev-server": "^3"
   },
   "dependencies": {
-    "@babylonjs/core": "^4.0.0-beta",
-    "@babylonjs/gui": "^4.0.0-beta",
-    "@babylonjs/loaders": "^4.0.0-beta",
-    "@babylonjs/materials": "^4.0.0-beta",
-    "@babylonjs/inspector": "^4.0.0-beta"
+    "@babylonjs/core": "^4",
+    "@babylonjs/gui": "^4",
+    "@babylonjs/loaders": "^4",
+    "@babylonjs/materials": "^4",
+    "@babylonjs/inspector": "^4"
   }
 }
