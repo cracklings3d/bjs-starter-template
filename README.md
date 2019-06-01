@@ -8,3 +8,8 @@ npm install
 npm start
 ```
 ## Enjoy!
+
+## License
+This template is licensed under the [GPLv2][1].
+
+[1]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
