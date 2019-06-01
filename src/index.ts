@@ -3,7 +3,7 @@ import * as i from '@babylonjs/inspector';
 
 let canvas: HTMLCanvasElement =
     document.getElementById('canvas') as HTMLCanvasElement;
-canvas.width = window.innerWidth - 15;
+canvas.width  = window.innerWidth - 15;
 canvas.height = window.innerHeight - 20;
 let ctx: WebGLRenderingContext =
     canvas.getContext('webgl') as WebGLRenderingContext;
@@ -17,11 +17,10 @@ cam.attachControl(canvas, true);
 let light: b.HemisphericLight =
     new b.HemisphericLight('light', new b.Vector3(0, 0, 0), scene);
 
-let mesh: b.Mesh = b.MeshBuilder.CreateTorusKnot(
-'mesh', {radius: 5, tube: 2, radialSegments: 1024, tubularSegments: 32},
-scene);
+let mesh: b.Mesh            = b.MeshBuilder.CreateTorusKnot('mesh',
+    {radius : 5, tube : 2, radialSegments : 1024, tubularSegments : 32}, scene);
 let mat: b.StandardMaterial = new b.StandardMaterial('mat', scene);
-mesh.material = mat;
+mesh.material               = mat;
 
 i.Inspector.Show(scene, {});
 engine.runRenderLoop(() => {
@@ -29,6 +28,4 @@ engine.runRenderLoop(() => {
   scene.render();
 });
 
-window.addEventListener('resize', () => {
-  engine.resize();
-});
+window.addEventListener('resize', () => { engine.resize(); });
