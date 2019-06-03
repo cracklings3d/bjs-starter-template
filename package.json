@@ -11,6 +11,7 @@
   "author": "Cracklings",
   "license": "ISC",
   "devDependencies": {
+		"@types/node": "^12",
     "clean-webpack-plugin": "^2",
     "copy-webpack-plugin": "^5",
     "css-loader": "^2",
