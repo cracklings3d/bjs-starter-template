@@ -11,24 +11,25 @@
   "author": "Cracklings",
   "license": "ISC",
   "devDependencies": {
-		"@types/node": "^12",
-    "clean-webpack-plugin": "^2",
-    "copy-webpack-plugin": "^5",
-    "css-loader": "^2",
-    "html-webpack-plugin": "^3",
-    "imports-loader": "^0.8.0",
-    "style-loader": "^0.23.1",
-    "ts-loader": "^5",
-    "typescript": "^3",
-    "webpack": "^4",
-    "webpack-cli": "^3",
-    "webpack-dev-server": "^3"
+    "@types/node": "latest",
+    "clean-webpack-plugin": "latest",
+    "copy-webpack-plugin": "latest",
+    "css-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "imports-loader": "latest",
+    "style-loader": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
   },
   "dependencies": {
-    "@babylonjs/core": "^4",
-    "@babylonjs/gui": "^4",
-    "@babylonjs/loaders": "^4",
-    "@babylonjs/materials": "^4",
-    "@babylonjs/inspector": "^4"
+    "@babylonjs/core": "latest",
+    "@babylonjs/gui": "latest",
+    "@babylonjs/loaders": "latest",
+    "@babylonjs/materials": "latest",
+    "@babylonjs/inspector": "latest",
+    "fp-ts": "latest"
   }
 }
