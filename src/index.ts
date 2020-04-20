@@ -22,7 +22,15 @@ let mesh: b.Mesh            = b.MeshBuilder.CreateTorusKnot('mesh',
 let mat: b.StandardMaterial = new b.StandardMaterial('mat', scene);
 mesh.material               = mat;
 
-i.Inspector.Show(scene, {});
+i.Inspector.Show(scene, {
+  showExplorer: true,
+  showInspector: true,
+  enablePopup: true,
+  enableClose: false,
+  overlay: true,
+  embedMode: false,
+  handleResize: true,
+});
 engine.runRenderLoop(() => {
   light.direction = cam.position;
   scene.render();
